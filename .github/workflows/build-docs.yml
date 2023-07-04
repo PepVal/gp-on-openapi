@@ -17,5 +17,6 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAGES_TOKEN }}
           publish_dir: ./docs
+          publish_branch: gh-pages
           force_orphan: true
           exclude_assets: ".github,openapi,.redocly.yaml,LICENSE,README.md,make.sh"
