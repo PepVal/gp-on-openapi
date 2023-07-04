@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Getting started"
-
+# move to directory
+cd ./docs
 # Bundle docs into zero-dependency HTML file
 npx @redocly/cli build-docs ./openapi.yaml && \
 mv redoc-static.html index.html && \
