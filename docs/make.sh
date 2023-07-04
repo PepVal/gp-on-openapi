@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Getting started"
+
 # move to directory
 cd ./docs
 # Bundle docs into zero-dependency HTML file
